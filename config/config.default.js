@@ -17,6 +17,10 @@ module.exports = (appInfo) => {
   // add your middleware config here
   config.middleware = [];
 
+  config.morgan = {
+    format: ':date[iso] :method :url :status :res[content-length] - :response-time ms',
+  };
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',

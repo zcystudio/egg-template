@@ -1,5 +1,3 @@
-
-
 /** @type Egg.EggPlugin */
 module.exports = {
   // had enabled by egg
@@ -9,5 +7,9 @@ module.exports = {
   cors: {
     enable: true,
     package: 'egg-cors',
+  },
+  morgan: {
+    enable: true,
+    package: 'egg-morgan',
   },
 };
