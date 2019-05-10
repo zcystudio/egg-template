@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
   write: true,
   prefix: '^',
@@ -19,11 +17,11 @@ module.exports = {
     'autod',
     'autod-egg',
     'eslint',
-    'eslint-config-egg',
+    'eslint-config-airbnb-base',
+    'eslint-plugin-import',
   ],
   exclude: [
     './test/fixtures',
     './dist',
   ],
 };
-
