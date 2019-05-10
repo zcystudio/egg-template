@@ -11,7 +11,6 @@ module.exports = {
     'egg-scripts',
   ],
   devdep: [
-    'egg-ci',
     'egg-bin',
     'egg-mock',
     'autod',
