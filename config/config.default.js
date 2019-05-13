@@ -21,6 +21,13 @@ module.exports = (appInfo) => {
     format: ':date[iso] :method :url :status :res[content-length] - :response-time ms',
   };
 
+  // For Request with http header Application/JSON
+  config.security = {
+    csrf: {
+      ignoreJSON: true,
+    },
+  };
+
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
